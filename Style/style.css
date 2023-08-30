@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+:root{
+    --cor-primaria:#010101;
+    --cor-secundaria:#22D4FD;
+    --cor-terciaria:#f6f6f6;
+    --cor-quartenaria:#0b3640;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria:'Montserrat', sans-serif;
+}
+body{
+    height: 100vh; 
+    background-color:var(--cor-primaria);
+    color: var(--cor-terciaria);
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+}
+.menuBarPrincipal{
+    display: flex;
+    padding: 3% 0 0 26%;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.menuBar{
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--cor-secundaria);   
+    text-decoration:none;
+}
+.titulo{
+    color: #22D4FD;
+}
+.apresentacao{
+    margin: 3% 15%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 4%;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family:var(--font-primaria);
+}
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family:var(--font-secundaria);
+    text-decoration: none;
+}
+.apresentacao__botoes__subtitulo{
+    font-family:var(--font-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.apresentacao__botoes__estilo{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--cor-terciaria);
+    border: 3px solid var(--cor-secundaria);
+    font-weight: 600;
+    font-family:var(--font-secundaria);
+}
+.imagebox{
+    width: 420px;
+    
+}
+.apresentacao__botoes__estilo:hover{
+    background: var(--cor-quartenaria);
+    padding: 3%;
+    /* O hover é usado para selecionar elementos quando você passa o mouse sobre eles.
+    O único elemento que ele não estiliza são os links, que possuem seletores próprios.
+    Essa e outras informações úteis sobre o hover você pode encontrar na documentação */
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:var(--font-secundaria);
+    font-weight: 600;
+    color: var(--cor-primaria);
+    font-size: 24px;
+    background-color:var(--cor-secundaria);
+    padding: 24px;
+   
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
