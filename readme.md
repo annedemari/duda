@@ -1,2 +1,3 @@
 teste
-anne kkkkk
+anne kk
+Não copia não 
